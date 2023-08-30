@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana,Arial,Tahoma,sans-serif;
+}
+body{
+
+  background-color: #0F1721;
+}
+
+.container{
+
+    background-image: linear-gradient(to bottom,#21497400,#190a6700), url(/images/bg-image.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    
+}
+.logo{
+    position: absolute;
+    top: 80px;
+}
+.logo2{
+    position: absolute;
+    top: 160px;
+    left: 35px;
+
+}
+.navbar{
+    width: 700px;
+    margin: auto;
+    
+}
+.navbar ul{
+    margin-left: 20px;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    border: 2px solid #3e6a9c4f;
+    height: 35px;
+    margin: -3px;
+    background-color: #09266177;
+    padding: 5px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+
+    
+}
+
+.Search_input{
+    width: 400px;
+    height: 100px;
+  margin: auto;
+}
+
+.Search_input input{
+    border: 5px solid #0B2047;
+    width: 260px;
+    height: 30px;
+    position: relative;
+    left:40px;
+    top: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px #023A78;
+}
+.Search_input input::placeholder{
+
+    font-size: 18px;
+    color: #ffffffc9;
+    padding: 5px;
+    font-weight: 500;
+    background-color: #0b2047;
+}
+.Search_input i{
+
+    position: relative;
+    left: 30px;
+    top: 22px;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    background-color: #124c90;
+    padding: 6px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 1px 1px 2px 2px #0d3f756c;
+}
+.icons{
+
+    width: 360px;
+    height: 60px;
+    margin-left: 1000px ;
+    position: absolute;
+    right: 0;
+}
+
+.icons i{
+
+    color: white;
+    font-size: 25px;
+    background-color: #11253cba;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px #114887c1;
+    margin: 0px 10px;
+
+}
+
+.main{
+
+
+    border:2px solid #023A78;
+    width: 700px;
+    height: 400px;
+    margin: -150px auto 0px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #081a3dbc;  
+}
+
+
+.card{
+
+    width: 190px;
+    height: 55px;
+    background-color: #BDC0D1;
+    border-radius: 6px;
+    position: relative;
+    margin: 0px 8px;
+    box-shadow: 1px 1px 3px 1px #BDC0D1 ;
+
+}
+.card:hover{
+    background-color: #CECFA4 ;
+}
+
+.card h2{
+    text-align: right;
+    padding-top: 7px;
+    padding-right: 7px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #333;
+    text-shadow: 1px 1px 0px white;
+    cursor: pointer;
+}
+.card img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30%;
+}
+
+.img1{
+
+   height: 35px;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: Verdana,Arial,Tahoma,sans-serif;
+    }
+
+    
+.main{
+
+
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: none;
+
+}
+
+.card{
+
+    width: 130px;
+    height: 40px;
+    background-color: #1d345ea5;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: none;
+    margin: 2px 4px;
+
+
+}
+.card:hover{
+    background-color: #172E53 ;
+}
+
+.card h2{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200;
+    color: rgba(53, 93, 162, 0.408);
+    text-shadow: 1px 1px 0px white;
+    cursor: pointer;
+}
+.main img{
+    display: none;
+}
+
+.logo{
+    position: absolute;
+    top: 80px;
+}
+.logo2{
+    position: absolute;
+    top: 160px;
+    left: 35px;
+
+}
+.navbar{
+ display: none;
+}
+
+.Search_input input{
+    border: 5px solid #0B2047;
+    width: 260px;
+    height: 30px;
+    position: relative;
+    left:40px;
+    top: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px #023A78;
+}
+.Search_input input::placeholder{
+
+    font-size: 18px;
+    color: #ffffffc9;
+    padding: 5px;
+    font-weight: 500;
+    background-color: #0b2047;
+}
+.Search_input i{
+
+    position: relative;
+    left: 30px;
+    top: 7px;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    background-color: #124c90;
+    padding: 6px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 1px 1px 2px 2px #023A78;
+}
+
+    
+}
+
+.Section{
+    width: 60vw;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    color: white;
+
+}
+
+.Messages{
+
+    font-weight: 400;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    color: white;
+
+}
+
+.Messages h1{
+
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.MessageBox{
+
+    background-color: #081a3dbc;  
+    margin: 10px auto;
+    width: 450px;
+    height: 160px;
+    border:2px solid #023A78;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.Box{
+
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.SubBox{
+
+    width: 220px;
+    background-color: #081a3d29;
+    margin: 10px;
+
+}
+
+.SubBox h2{
+
+    font-size: 17px;
+    text-decoration: underline;
+    font-weight: 300;
+    display: inline;
+    margin: 20px 0px;
+    padding: 5px;
+}
+.img2{
+
+    width: 220px;
+    padding: 10px;
+    background-color: #081a3dbc;
+    border:2px solid #023A78;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.SubBox .img1,.img3{
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #081a3dbc;
+    border:2px solid #023A78;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.SubBox p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.ReviewBox{
+
+    width: 220px;
+    background-color: #081a3d29;
+    margin: 10px;
+    padding: 20px;
+line-height: 1.5;
+}
+.ReviewBox p{
+
+    font-size: 15px;
+    font-weight: 200;
+
+}
+.ReviewBox h2{
+    color: #4b81bf;
+    font-size: 16px;
+    font-weight: 200;
+}
+.ReviewBox h1{
+    font-size: 20px;
+}
+.ReviewBox span{
+    display: inline-block;
+    width: fit-content;
+    background-color: #081a3d2d;
+    border:1px solid #023A78;
+    border-radius: 10px;
+    padding: 7px;
+
+}
+.ReviewBox span a{
+    color: white;
+    font-size: 14px;
+
+}
+.lines{
+    margin: 40px auto;
+    text-align: center;
+    position: relative;
+    color: white;
+    line-height: 1.6;
+}
+
+.lines p{
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
+}
+.lines span{
+
+    display: inline-block;
+    width: fit-content;
+    background-color: #081a3d2d;
+    border:1px solid #023A78;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.lines span a{
+    color: white;
+    font-size: 14px;
+}
+
+.Footer{
+
+    margin: 120px auto 20px;
+    text-align: center;
+
+}
+
+.Footer li{
+    display: inline;
+    list-style: circle;
+    margin: 8px;
+
+}
+.Footer a{
+    color: white;
+    font-size: 14px;
+}
+
+.Footer .li6{
+
+    font-weight: bold;
+
+}
+
+.Footer p{
+    color: #F8A71F;
+}
